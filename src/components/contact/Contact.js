@@ -71,6 +71,7 @@ const Contact = () => {
             id="name"
             name="name"
             placeholder="Nom et Prénom"
+            autoComplete="name"
             {...register("name")}
           />
           {errors.name && <p id="c-yup">{errors.name.message}</p>}
@@ -84,6 +85,7 @@ const Contact = () => {
             id="email"
             name="email"
             placeholder="exemple@gmail.com"
+            autoComplete="email"
             {...register("email")}
           />
           {errors.email && <p id="c-yup">{errors.email.message}</p>}
@@ -95,6 +97,7 @@ const Contact = () => {
             className="select-contact"
             id="subject"
             name="subject"
+            autoComplete="off"
             {...register("subject")}
           >
             <option value="questions">Questions</option>
@@ -109,6 +112,7 @@ const Contact = () => {
             id="message"
             name="message"
             placeholder="Merci de renseigner vos questions ou commentaires"
+            autoComplete="off"
             cols="20"
             rows="10"
             {...register("message")}
