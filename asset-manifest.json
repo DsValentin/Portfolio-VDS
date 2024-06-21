@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Portfolio-VDS/static/css/main.d2e1923c.css",
+    "main.js": "/Portfolio-VDS/static/js/main.af3f1d26.js",
+    "static/media/home.webp": "/Portfolio-VDS/static/media/home.34920e71f2412e28785b.webp",
+    "index.html": "/Portfolio-VDS/index.html",
+    "main.d2e1923c.css.map": "/Portfolio-VDS/static/css/main.d2e1923c.css.map",
+    "main.af3f1d26.js.map": "/Portfolio-VDS/static/js/main.af3f1d26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2e1923c.css",
+    "static/js/main.af3f1d26.js"
+  ]
+}
