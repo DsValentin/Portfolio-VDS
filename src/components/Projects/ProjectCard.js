@@ -17,7 +17,7 @@ function ProjectCard({ project }) {
       <Card.Img
         variant="top"
         src={project.img_cover}
-        alt="card-img"
+        alt="image_projet"
         className="card-img-top"
       />
       <Card.Body>

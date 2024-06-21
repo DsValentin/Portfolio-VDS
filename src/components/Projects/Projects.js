@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Modal, Button } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
-import projectsData from "../../projectsData.json";
+import projectsData from "../../projectsData"; // Remarquez que nous avons supprimé .json
 import "./Project.scss";
 
 function Projects() {
@@ -39,7 +39,7 @@ function Projects() {
         <Modal.Body>
           <img
             src={selectedProject?.img_modal}
-            alt="modal-img"
+            alt="image_projet"
             className="modal-img"
           />
           <p>
@@ -47,6 +47,9 @@ function Projects() {
           </p>
           <p>
             <strong>Présentation:</strong> {selectedProject?.presentation}
+          </p>
+          <p>
+            <strong>Overview:</strong> {selectedProject?.overview}
           </p>
           <p>
             <strong>Tags:</strong> {selectedProject?.tags.join(", ")}
